@@ -9,4 +9,4 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          file: Pluto-tv/kubernetes-goat/
+          file: github.com/Pluto-tv/kubernetes-goat/
