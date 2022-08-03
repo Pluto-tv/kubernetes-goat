@@ -8,3 +8,8 @@ jobs:
         uses: snyk/actions/iac@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          command: test
+          path: Pluto-tv/kubernetes-goat/
+            
+        
