@@ -1,5 +1,7 @@
 name: Example workflow for Snyk Infrastructure as Code
-on: push
+on: 
+  push:
+       paths: Pluto-tv/kubernetes-goat
 jobs:
   security:
     runs-on: ubuntu-latest
