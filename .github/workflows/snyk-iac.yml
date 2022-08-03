@@ -10,6 +10,7 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           command: test
+          file: Pluto-tv/kubernetes-goat/tree/master/infrastructure/
         
             
         
