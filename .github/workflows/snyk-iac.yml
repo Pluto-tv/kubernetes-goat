@@ -9,4 +9,4 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          file: github.com/Pluto-tv/kubernetes-goat/
+          file: Pluto-tv/kubernetes-goat/infrastructure/helm-tiller/pwnchart/templates/clusterrole.yaml
