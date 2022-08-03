@@ -9,4 +9,4 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-         command: --severity-threshold=high --report
+         command: test --severity-threshold=high --report
