@@ -9,5 +9,4 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-         command: test --severity-threshold=high --report
-         file: infrastructure/helm-tiller/pwnchart/templates/clusterrole.yaml
+         command: test
